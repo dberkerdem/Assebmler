@@ -16,7 +16,7 @@ import java.io.FileWriter;
 
 public class cpu514assemble {
     public static void main(String[] args) throws IOException {
-        String file = "src/add.asm";
+        String file = "src/case/add.asm";
         Path path = Paths.get(file);
         List<String> lines = Files.readAllLines(path);
         String[] assemble = new String[lines.size()];

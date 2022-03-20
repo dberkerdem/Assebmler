@@ -26,7 +26,7 @@ public class cpu514exec {
 	public static void main(String[] args) throws IOException{
 		
 		//Reading Prog.bin file and writing instructions to the memory
-		String address ="src/add.bin";
+		String address ="src/case/add.bin";
 		writeToMemory(address);
         //control loop of the program
 		String[] Instruction=new String[3];
